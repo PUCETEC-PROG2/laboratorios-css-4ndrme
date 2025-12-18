@@ -1,38 +1,71 @@
 /* Los estilos se aplican a todo el documento */
 @import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
 body {
-    background-image: linear-gradient(120deg, rgba(75, 230, 134, 0.3), rgba(94, 241, 106, 0.788)),
+    background-image: linear-gradient(135deg, #348888, #22BABB),
     url('../assets/images/fondo2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color#17e4a6;
+    color: #FA7F08;
     font-family: "Geom", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
 
-.social-icon{
-    width: 32px;
+header{
+    margin: 32px auto;
+    max-width: 800px;
 }
 
-.sobre.mi{
+header h1{
+    text-align: center;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.box{
     max-width: 800px;
     border-style: solid;
     border-radius: 2px;
+    border-width: 1px;
+    border-color: #FA7F08;
     margin: auto;
-    padding: 20px;
-    background-image: linear-gradient(120deg, rgba(75, 230, 134, 0.3), rgba(18, 247, 37, 0.952))
+    margin-top: 24px;
+    padding: 0 16px 16px 32px;
+    background-image: linear-gradient(120deg, #348888, #22BABB)
 }
 
-.sobre.mi h2{
+.box h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.box img {
+    border-radius: 30%;
+    width: 150px;
+}
+
+.profile {
     text-align: center;
 }
 
-.sobre.mi img {
-    border-radius: 30%;
-    width: 150px;
-    float: left;
-    margin-right: 16px;
+.social-icons {
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 45px;
+}
+
+footer{
+    margin: 32px auto;
+    max-width: 800px;
+    font-size: 10pt;
+    text-align: center;
 }
